@@ -1,0 +1,67 @@
+.c {
+  height: 30vhvh;
+  position: relative;
+  
+}
+
+.c-bg {
+  width: 20px;
+  height: 100%;
+  background-color: #019AFF;
+  position: absolute;
+}
+
+.c-wrapper {
+  padding:0 0 3.125rem ;
+  display: flex;
+}
+
+.c-left {
+  flex: 1;
+}
+
+
+.c-title, .ctitlesub {
+  text-align: center;
+  width: 100%;
+}
+
+.ctitlesub{
+  margin-top: 1rem;
+  font-weight: normal;
+  color: #019AFF;
+}
+
+.c-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-info-item
+{
+  margin: 1rem 1.5rem;
+}
+
+a{  
+    color: #019AFF;
+    text-decoration: none;
+}
+
+a:hover{
+  color:#6EFAFA ; 
+  
+}
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+
+ 
+}
