@@ -15,6 +15,10 @@
 
 .a-right {
   flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .a-card.bg {
@@ -96,7 +100,7 @@
 
 .a-container{
   width: 100%;
-  display: flex;
+  display: flex; 
 }
 
 .a-container-item{
@@ -111,6 +115,23 @@
   margin-right: 2rem;
  
 }
+
+
+
+.container{
+  display: flex;
+  margin: 4% 0;
+  
+}
+
+.container-item{
+  width: 33%;
+  font-size: 1.4rems;
+  font-weight: 700;
+  color: #019aff;
+  
+}
+
 
 
 @media screen and (max-width:480px) {
@@ -143,4 +164,7 @@
     .a-sub{
       width: 100%;
     }
+
+    
+    
 }

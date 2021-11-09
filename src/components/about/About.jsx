@@ -1,6 +1,4 @@
 import "./about.css";
-import { MdDoubleArrow } from "react-icons/md";
-
 
 
 const About = () => {
@@ -21,33 +19,41 @@ const About = () => {
         <p className="a-sub">
         An ambitious individual who is always keen to learn more & hone his skills and eager to contribute & work to real-world projects & problems.
         </p>
-        <p className="a-desc">
+        
           <h3> Skills & Languages          </h3>
-          <div className="a-container">
           
-            <div className="a-container-item">   <MdDoubleArrow className="arrow" size="1.2rem" />  React </div>
-            <div className="a-container-item">     <MdDoubleArrow className="arrow" size="1.2rem" />Node.js</div>
-            <div className="a-container-item">     <MdDoubleArrow className="arrow" size="1.2rem" />  Git </div>
+          <div className="net-container">
+            
+          <div className="container">
+            <div className="container-item">React</div>
+            <div className="container-item">Node.js</div>
+            <div className="container-item">Git</div>
 
           </div>
-          <div className="a-container">
-            <div className="a-container-item">   <MdDoubleArrow className="arrow" size="1.2rem" />  HTML</div>
-            <div className="a-container-item">   <MdDoubleArrow className="arrow" size="1.2rem" />  CSS</div>
-            <div className="a-container-item">   <MdDoubleArrow className="arrow" size="1.2rem" />  JS</div>
-
-          </div><div className="a-container">
-          <div className="a-container-item"> <MdDoubleArrow className="arrow" size="1.2rem" />  jQuery</div>
-            <div className="a-container-item">   <MdDoubleArrow className="arrow" size="1.2rem" />  Bootstrap </div>
-            <div className="a-container-item">   <MdDoubleArrow className="arrow" size="1.2rem" />  Canva</div>
-            
-
-          </div><div className="a-container">
-            <div className="a-container-item">          <MdDoubleArrow className="arrow" size="1.2rem" />  C++</div>
-            <div className="a-container-item">          <MdDoubleArrow className="arrow" size="1.2rem" />  C</div>
-            
+          <div className="container">
+            <div className="container-item">HTML</div>
+            <div className="container-item">CSS</div>
+            <div className="container-item">JS</div>
 
           </div>
-        </p>
+          <div className="container">
+            <div className="container-item">jQuery</div>
+            <div className="container-item">Bootstrap</div>
+            <div className="container-item">Canva</div>
+
+          </div>
+          <div className="container">
+            <div className="container-item">C++</div>
+            <div className="container-item">C</div>
+   
+
+          </div>
+
+
+          </div>
+
+
+       
         
       </div>
     </div>
@@ -55,3 +61,30 @@ const About = () => {
 };
 
 export default About;
+
+
+
+// <div className="a-container">
+          
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  React </div>
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  Node.js</div>
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  Git </div>
+
+//         </div>
+//         <div className="a-container">
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  HTML</div>
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  CSS</div>
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  JS</div>
+
+//         </div><div className="a-container">
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  jQuery</div>
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  Bootstrap </div>
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  Canva</div>
+          
+
+//         </div><div className="a-container">
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  C++</div>
+//           <div className="a-container-item"><MdDoubleArrow className="arrow" size="1.2rem" />  C</div>
+          
+
+//         </div>

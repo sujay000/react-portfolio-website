@@ -1,4 +1,5 @@
 .pl {
+  
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
@@ -8,6 +9,7 @@
 
 .pl-texts {
   width: 65%;
+
 }
 
 .pl-title {
@@ -35,8 +37,8 @@
   .pl-texts {
     width: 100%;
   }
-
-  .pl-desc {
-    display: none;
+  
+  .pl-title{
+    margin-top: 20%;
   }
 }
