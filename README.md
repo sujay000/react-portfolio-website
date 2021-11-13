@@ -1,7 +1,7 @@
 
 # Portfolio website
 
-Created using React, my own portfolio website,  responsive to various devices.
+Created using React, my own portfolio website, responsive to various devices, has Light/dark mode toggle.
 
 
 ## Screenshots
